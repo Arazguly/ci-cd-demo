@@ -9,6 +9,6 @@ app.get('/', (req, res) => {
 describe('GET /', () => {
   it('responds with Hello World', async () => {
     const res = await request(app).get('/');
-    expect(res.text).toBe('Hello');
+    expect(res.text).toBe('Hello World');
   });
 });
